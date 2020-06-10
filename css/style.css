@@ -1,0 +1,194 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 15px 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.footer {
+    padding: 20px 0 20px 0;
+    background: #f7f7f7;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    align-items: center;
+}
+
+.nav>li {
+    margin: 0 0 0 15px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.nav_btn {
+    background: #5528FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/logo.svg);
+    margin-right: 20px;
+}
+
+.logo_text {
+    font-size: 24px;
+    color: #202020;
+    
+}
+
+.title-main {
+    font-size: 56px;
+    color: #202020;
+    font-weight: 700;
+}
+.text-main {
+    font-size: 32px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+.button {
+    background: #5528FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 45px;
+    font-size: 24px;
+}
+
+.page {
+    padding: 40px 0 40px 0;
+    position: relative;
+}
+
+.page-top {
+    border-top: 1px solid #C2C2C2;
+}
+
+.page h2 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    background: #ffffff;
+    top: -24px;
+    padding: 5px 15px;
+    color: #C2C2C2;
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services_img {
+    flex-basis: 120px;
+    text-align: center;
+}
+
+.services_text {
+    flex-basis: calc(100% - 120px);
+}
+
+.services h3 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    color: #b2b2b2;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.clients {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
+    text-align: center;
+    grid-row-gap: 40px;
+}
+
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    grid-row-gap: 40px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team-item img {
+    margin: 0 20px 0 0;
+}
+
+.team-text {
+    flex-basis: calc(100%-100px);
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    padding: 0 0 0 0;
+}
+
+.social>li {
+    margin: 0 0 0 15px;
+}
+
+.social>li>a {
+    text-decoration: none;
+    color: #b2b2b2;
+    font-size: 24px;
+}
